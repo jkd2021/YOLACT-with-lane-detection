@@ -7,7 +7,7 @@ In order to use YOLACT++, make sure you compile the DCNv2 code. (See [Installati
 
 # Sample running 
 
-![image](https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif)
+![image](https://github.com/jkd2021/YOLACT-with-lane-detection/blob/main/data/123.gif)
 
 
 # Installation
