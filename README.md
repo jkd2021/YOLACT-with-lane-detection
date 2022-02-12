@@ -48,9 +48,7 @@ In order to use YOLACT++, make sure you compile the DCNv2 code. (See [Installati
 # Evaluation
 See Evaluation in original YOLACT models https://github.com/dbolya/yolact#evaluation (released on April 5th, 2019).
 
-Try your own image and video with command as follow.
-
-To evalute the model, put the corresponding weights file in the `./weights` directory and run one of the following commands. The name of each config is everything before the numbers in the file name (e.g., `yolact_base` for `yolact_base_54_800000.pth`).
+To evalute the model, put the corresponding weights file in the `./weights` directory and run one of the following commands with your own image and video. The name of each config is everything before the numbers in the file name (e.g., `yolact_base` for `yolact_base_54_800000.pth`).
 
 ## Images
 ```Shell
