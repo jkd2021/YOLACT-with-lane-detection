@@ -73,10 +73,10 @@ python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_thresho
 python eval.py --trained_model=weights/yolact_base_54_800000.pth --score_threshold=0.15 --top_k=15 --video_multiframe=4 --video=input_video.mp4:output_video.mp4
 
 # Process a video with higher frame rate and save it to another file.
-python eval.py --trained_model=weights/yolact_resnet50_54_800000.pth --score_threshold=0.3 --top_k=20 --video_multiframe=16 --display_fps --video=../video/Hangzhou_Street_01.mp4:output_HZ_Street_01.mp4
+python eval.py --trained_model=weights/yolact_resnet50_54_800000.pth --score_threshold=0.3 --top_k=20 --video_multiframe=16 --display_fps --video=input_video.mp4:output_video.mp4
 
-# Process a video with higher frame rate
-python eval.py --trained_model=weights/yolact_resnet50_54_800000.pth --score_threshold=0.3 --top_k=20 --video_multiframe=16 --display_fps --video=../video/Hangzhou_Street_01.mp4
+# Process a video with higher frame rate and display it
+python eval.py --trained_model=weights/yolact_resnet50_54_800000.pth --score_threshold=0.3 --top_k=20 --video_multiframe=16 --display_fps --video=input_video.mp4
 
 ```
 As you can tell, `eval.py` can do a ton of stuff. Run the `--help` command to see everything it can do.
