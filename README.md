@@ -14,7 +14,7 @@ In order to use YOLACT++, make sure you compile the DCNv2 code. (See [Installati
  - Clone this repository and enter it:
    ```Shell
    git clone https://github.com/jkd2021/YOLACT-with-lane-detection.git
-   cd yolact
+   cd YOLACT-with-lane-detection
    ```
  - Set up the environment using one of the following methods:
    - Using [Anaconda](https://www.anaconda.com/distribution/)
